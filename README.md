@@ -5,14 +5,14 @@
 
 ***
 
-Here you will find some scripts that I used to solve the first set of challenge questions.  **I recommend viewing them in an IPython Notebook** (file.ipynb) or if you like, you can simply view the code and execute in IPython.
+Here you will find some scripts that I used to solve the first set of challenge questions.  **I recommend viewing them with IPython Notebook**, or alternateively, you can simply view the code and execute in an IPython environment.
 
-In order to solve for the random walk questions, I imagined what I knew about other random walk scenarios.  I recalled a [story](https://en.wikipedia.org/wiki/Monte_carlo_simulation#History) from the scientists at Los Alamos National Laboratory, and decided a Monte Carlo simulation was a fun idea.
+In order to solve for the random walk questions, I imagined what I knew about other random walk scenarios.  I recalled a [story](https://en.wikipedia.org/wiki/Monte_carlo_simulation#History) from the scientists at Los Alamos National Laboratory, and decided a Monte Carlo simulation was a workable idea.
 
 
 ####1. createTheData.ipynb
 
-   This script generates a JSON files which contain the random walks.  I found that random.randint() was significantly less random than random.choice('True','False').
+   This script generates a JSON file which contains the random walks.  I found that random.randint() was significantly less random than random.choice('True','False').
 
 ####2. siftAndPlot.ipynb
 
@@ -24,4 +24,4 @@ In order to solve for the random walk questions, I imagined what I knew about ot
 
 ***
 
-**NOTE:** I had so much fun making sandcastles with the data, that I generated more sets than necessary.  Instead of making separate sets for each trial size, one large dataset could be referenced for all the questions.........
+**NOTE:** Due to the limitations of my laptop, I ran this simulation for 500k trials.  However, this test can be done with many more data points.
